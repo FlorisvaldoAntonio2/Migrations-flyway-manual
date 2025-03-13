@@ -92,6 +92,7 @@ Para migrações "rollback":
 ```sh
 mvn flyway:undo
 ```
+OBS: o Flyway Undo é um recurso comercial do Flyway e não está disponível na Community Edition. Portanto, precisaremos da Pro Edition ou Enterprise Edition para usar esse recurso.
 
 8. Para ter informações sobre as migrações:
 ```sh
